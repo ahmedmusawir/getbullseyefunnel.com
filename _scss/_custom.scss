@@ -1,0 +1,280 @@
+// $leisa-orange: #efa31f;
+// $leisa-green: #5f9217;
+
+
+// $brand-primary:  #E8CA00;
+// $brand-primary:  #FFFC13;
+// $brand-primary: #FF6600;
+// $brand-primary: #FF8300;
+// $brand-primary: lighten( #be8706, 10% );
+// $tiana-primary: #5FC5BF;
+// $tiana-gray: #242424;
+
+// $tiana-primary: lighten( black, 50% );
+// $tiana-primary: #bfa26a;
+
+// $tiana-golden: #bfa26a;
+
+// $tiana-pink: #c5197f;
+$tiana-blue: #0f4c73;
+$tiana-teal: #5cc5bf;
+// $tiana-gray: #242424;
+// $tiana-orange: #ed6e42;
+// $tiana-light-blue: #2787b1 ;
+// $tiana-orange: #f13800;
+
+
+
+@import "bourbon/bourbon";
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css);
+// @import url(https://fonts.googleapis.com/css?family=Vollkorn:400,700italic,400italic,700);
+// @import url(https://fonts.googleapis.com/css?family=Bevan);
+// @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,300,200,100);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+// @import url(https://fonts.googleapis.com/css?family=Poiret+One);
+// @import url(https://fonts.googleapis.com/css?family=Cabin:400,400italic,500,500italic,600,600italic,700,700italic);
+// @import url(https://fonts.googleapis.com/css?family=Muli:400,300,300italic,400italic);
+@import url(https://fonts.googleapis.com/css?family=Homemade+Apple);
+
+html { 
+ 	font-family: 'Raleway', sans-serif;
+	background: url('http://tianagustafson.com/wp-content/uploads/2016/06/footer-bg.jpg') center center fixed;
+
+}
+
+body {
+	display: none;
+	background: url('http://tianagustafson.com/wp-content/uploads/2016/06/footer-bg.jpg') center center fixed;
+}
+
+#myModalLabel {
+	color: $tiana-teal;
+}
+
+button {
+	padding: 0;
+	border: none;
+	background: white;
+	clear: both;
+	outline: none;
+
+	img {
+		@media ( min-width: 651px ) {
+			width: 60%;
+		}
+	}
+}
+
+h1 {
+	background: url('http://tianagustafson.com/wp-content/uploads/2016/06/footer-bg.jpg') center center fixed;
+
+	color: $tiana-blue;
+	padding-top: 4rem;
+	padding-bottom: 3rem;
+	text-align: center;
+	font-weight: 700;
+
+	.teal {
+		color: $tiana-teal;
+	}
+
+	@media ( max-width: 400px ) {
+		font-size: 2.5rem;
+	}
+}
+
+#block-1 {
+	min-height: 300px;
+	background: white;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+#block-2 {
+	min-height: 300px;
+	background: white;
+	// margin-top: 2rem;
+	margin-bottom: 2rem;
+	
+	.get-list {
+		list-style: none;
+		padding-top: 3rem;
+
+		li {
+			color: $tiana-blue;
+			font-weight: 700;
+			font-size: 2rem;
+			line-height: 5rem;
+
+			.teal {
+				color: $tiana-teal;
+			}	
+			
+			@media ( max-width: 991px ) {
+				font-size: 1.5rem;
+				line-height: 3rem;
+			}		
+		}
+	}
+
+	.btn-row {
+		clear: both;
+	}
+
+	.header-btn-box {
+		// padding-top: 3rem;
+	}
+
+	.visible-xs {
+		padding-bottom: 2rem;
+	}
+}
+
+#block-3 {
+	min-height: 300px;
+	background: white;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+
+	.cathy {
+
+		background: url('_img/background-transparent-awsome.jpg') center center fixed;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+
+		h2 {
+			color: $tiana-blue;
+			font-style: italic;
+		}
+		h4 {
+			color: lighten( gray, 10% );
+			font-weight: 300;
+			font-size: 2rem;
+			padding-top: 2rem;
+		}
+
+		img {
+			width: 60%;
+		}
+
+		figure {
+			margin-top: 5rem;
+		}
+
+	}
+
+	.testimonial {
+
+		background: url('_img/background-transparent-awsome.jpg') center center fixed;
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+		margin-top: 3rem;
+
+		i {
+			color: lighten( gray, 10% );
+		}
+			
+		h3 {
+			color: gray;
+			font-style: italic;
+		}
+		h4 {
+			color: lighten( gray, 10% );
+			font-weight: 300;
+			font-size: 2rem;
+			padding-top: 2rem;
+		}
+
+		img {
+			width: 60%;
+			@media ( max-width: 600px ) {
+				width: 100%;
+				padding-bottom: 2rem;
+			}
+		}
+
+		figure {
+			margin-top: 5rem;
+		}
+		cite {
+			padding-top: 2rem;
+		}
+
+	}	
+}
+
+#block-4 {
+	min-height: 300px;
+	background: white;
+	// background: rgba( $tiana-teal, .3 );
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	.bonus-list {
+		list-style: none;
+		padding-top: 3rem;
+
+		li {
+			color: $tiana-blue;
+			font-weight: 700;
+			font-size: 3rem;
+			.teal {
+				color: $tiana-teal;
+			}
+			@media ( max-width: 1200px ) {
+				font-size: 2.5rem;
+				img {
+					width: 5%;
+				}
+			}					
+			@media ( max-width: 991px ) {
+				font-size: 2rem;
+			}		
+		}
+	}
+
+	.btn-row {
+		clear: both;
+	}
+
+	.header-btn-box {
+		// padding-top: 3rem;
+	}	
+
+}
+
+.footer {
+
+	background-color: black;
+	padding-bottom: 1rem;
+
+	.text {
+		padding-top: 2rem;
+		color: lighten( gray, 10% );
+	}
+	.footer-menu {
+		list-style: none;
+
+		li {
+			display: inline-block;
+			padding-left: 1.5rem;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
