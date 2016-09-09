@@ -48,8 +48,26 @@ body {
 	background: url('http://tianagustafson.com/wp-content/uploads/2016/06/footer-bg.jpg') center center fixed;
 }
 
-#myModalLabel {
-	color: $tiana-teal;
+#myModal {
+
+	#myModalLabel {
+		color: $tiana-teal;
+	}	
+
+	.modal-body {
+		h1 {
+			font-size: 2rem;
+		}
+
+		a {
+			img {
+				width: 70%;
+			}
+			img.vip {
+				width: 55%;
+			}
+		}
+	}
 }
 
 button {
@@ -96,6 +114,14 @@ h1 {
 	background: white;
 	// margin-top: 2rem;
 	margin-bottom: 2rem;
+
+	h1 {
+		small {
+			margin-top: 5rem;
+			font-weight: 700;
+			color: lighten( $tiana-blue, 5% );
+		}
+	}
 	
 	.get-list {
 		list-style: none;
@@ -207,7 +233,6 @@ h1 {
 #block-4 {
 	min-height: 300px;
 	background: white;
-	// background: rgba( $tiana-teal, .3 );
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	.bonus-list {
