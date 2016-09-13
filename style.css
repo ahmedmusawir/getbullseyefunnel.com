@@ -5973,10 +5973,6 @@ h1 {
   min-height: 300px;
   background: white;
   margin-bottom: 2rem; }
-  #block-2 h1 small {
-    margin-top: 5rem;
-    font-weight: 700;
-    color: #125b8a; }
   #block-2 .get-list {
     list-style: none;
     padding-top: 3rem; }
@@ -5991,16 +5987,197 @@ h1 {
         #block-2 .get-list li {
           font-size: 1.5rem;
           line-height: 3rem; } }
-  #block-2 .btn-row {
-    clear: both; }
   #block-2 .visible-xs {
     padding-bottom: 2rem; }
+
+#pricebox-row {
+  margin-bottom: 5rem; }
+  #pricebox-row .pricebox-row {
+    position: relative; }
+    #pricebox-row .pricebox-row #left-pricebox {
+      background-color: white; }
+      @media (max-width: 991px) {
+        #pricebox-row .pricebox-row #left-pricebox {
+          position: relative;
+          margin: 0 !important; } }
+    #pricebox-row .pricebox-row #middle-pricebox {
+      z-index: 100;
+      background-color: white;
+      position: absolute;
+      top: 0; }
+      @media (max-width: 991px) {
+        #pricebox-row .pricebox-row #middle-pricebox {
+          position: relative;
+          margin: 0 !important;
+          margin-top: 3rem !important; } }
+    #pricebox-row .pricebox-row #right-pricebox {
+      z-index: 0;
+      background-color: white;
+      position: absolute;
+      top: 0; }
+      @media (max-width: 991px) {
+        #pricebox-row .pricebox-row #right-pricebox {
+          position: relative;
+          margin: 0 !important;
+          margin-top: 3rem !important; } }
+    #pricebox-row .pricebox-row .price-box {
+      box-shadow: 3px 3px 16px gray; }
+      #pricebox-row .pricebox-row .price-box .pricebox-header {
+        background: #5cc5bf;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem; }
+        #pricebox-row .pricebox-row .price-box .pricebox-header h2 {
+          color: white;
+          font-weight: 600;
+          font-size: 3.5rem; }
+          #pricebox-row .pricebox-row .price-box .pricebox-header h2 small {
+            font-size: 2.5rem;
+            color: white; }
+      #pricebox-row .pricebox-row .price-box .bonus-list {
+        list-style: none;
+        padding-top: 3rem;
+        padding-right: 2rem; }
+        #pricebox-row .pricebox-row .price-box .bonus-list li {
+          color: #0f4c73;
+          font-weight: 700;
+          font-size: 1.7rem;
+          line-height: 1.7rem; }
+          #pricebox-row .pricebox-row .price-box .bonus-list li .teal {
+            color: #5cc5bf; }
+          @media (max-width: 991px) {
+            #pricebox-row .pricebox-row .price-box .bonus-list li {
+              font-size: 1.5rem;
+              line-height: 3rem; } }
+      #pricebox-row .pricebox-row .price-box .price-tag {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        background-color: #3c3957; }
+        #pricebox-row .pricebox-row .price-box .price-tag h2 {
+          color: white;
+          text-align: center;
+          font-weight: 400;
+          font-size: 4.5rem; }
+      #pricebox-row .pricebox-row .price-box .btn-block {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        background-color: #5cc5bf; }
+        #pricebox-row .pricebox-row .price-box .btn-block .btn-danger {
+          background: #b42f49;
+          padding-left: 5rem;
+          padding-right: 5rem;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          border-radius: 2rem; }
+    #pricebox-row .pricebox-row .left-box {
+      margin-top: 5rem;
+      margin-right: -5.5rem; }
+      #pricebox-row .pricebox-row .left-box .pricebox-header {
+        background: #5cc5bf;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem; }
+        #pricebox-row .pricebox-row .left-box .pricebox-header h2 {
+          color: white;
+          font-weight: 400;
+          font-size: 2.5rem; }
+          #pricebox-row .pricebox-row .left-box .pricebox-header h2 small {
+            font-size: 2.5rem;
+            color: white; }
+      #pricebox-row .pricebox-row .left-box .bonus-list {
+        list-style: none;
+        padding-top: 2rem;
+        padding-right: 3rem; }
+        #pricebox-row .pricebox-row .left-box .bonus-list li {
+          color: #0f4c73;
+          font-weight: 600;
+          font-size: 1.5rem;
+          line-height: 1.5rem; }
+          #pricebox-row .pricebox-row .left-box .bonus-list li .teal {
+            color: #5cc5bf; }
+          @media (max-width: 991px) {
+            #pricebox-row .pricebox-row .left-box .bonus-list li {
+              font-size: 1.5rem;
+              line-height: 3rem; } }
+      #pricebox-row .pricebox-row .left-box .price-tag {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-color: #3c3957; }
+        #pricebox-row .pricebox-row .left-box .price-tag h2 {
+          color: white;
+          text-align: center;
+          font-weight: 400;
+          font-size: 3rem; }
+      #pricebox-row .pricebox-row .left-box .btn-block {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        background-color: #5cc5bf; }
+        #pricebox-row .pricebox-row .left-box .btn-block .btn-danger {
+          background: #b42f49;
+          padding-left: 5rem;
+          padding-right: 5rem;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          border-radius: 2rem; }
+    #pricebox-row .pricebox-row .right-box {
+      margin-top: 5rem;
+      margin-left: -3.5rem; }
+      #pricebox-row .pricebox-row .right-box .pricebox-header {
+        background: #5cc5bf;
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem; }
+        #pricebox-row .pricebox-row .right-box .pricebox-header h2 {
+          color: white;
+          font-weight: 500;
+          font-size: 2.5rem; }
+          #pricebox-row .pricebox-row .right-box .pricebox-header h2 small {
+            font-size: 2.5rem;
+            color: white; }
+      #pricebox-row .pricebox-row .right-box .bonus-list {
+        list-style: none;
+        padding-top: 2.5rem;
+        padding-right: 3rem; }
+        #pricebox-row .pricebox-row .right-box .bonus-list li {
+          color: #0f4c73;
+          font-weight: 600;
+          font-size: 1.6rem;
+          line-height: 1.6rem; }
+          #pricebox-row .pricebox-row .right-box .bonus-list li .teal {
+            color: #5cc5bf; }
+          @media (max-width: 991px) {
+            #pricebox-row .pricebox-row .right-box .bonus-list li {
+              font-size: 1.5rem;
+              line-height: 3rem; } }
+      #pricebox-row .pricebox-row .right-box .price-tag {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        background-color: #3c3957; }
+        #pricebox-row .pricebox-row .right-box .price-tag h2 {
+          color: white;
+          text-align: center;
+          font-weight: 400;
+          font-size: 3rem; }
+      #pricebox-row .pricebox-row .right-box .btn-block {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        background-color: #5cc5bf; }
+        #pricebox-row .pricebox-row .right-box .btn-block .btn-danger {
+          background: #b42f49;
+          padding-left: 5rem;
+          padding-right: 5rem;
+          padding-top: 1rem;
+          padding-bottom: 1rem;
+          border-radius: 2rem; }
 
 #block-3 {
   min-height: 300px;
   background: white;
   margin-top: 2rem;
   margin-bottom: 2rem; }
+  @media (min-width: 992px) and (max-width: 1166px) {
+    #block-3 {
+      margin-top: 12rem; } }
   #block-3 .cathy {
     background: url("_img/background-transparent-awsome.jpg") center center fixed;
     padding-top: 3rem;
@@ -6048,6 +6225,9 @@ h1 {
   background: white;
   margin-top: 2rem;
   margin-bottom: 2rem; }
+  @media (min-width: 992px) and (max-width: 1166px) {
+    #block-4 {
+      margin-top: 12rem; } }
   #block-4 .bonus-list {
     list-style: none;
     padding-top: 3rem; }
